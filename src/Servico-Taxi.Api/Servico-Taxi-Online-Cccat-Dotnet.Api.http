@@ -1,0 +1,6 @@
+@Servico_Taxi_Online_Cccat_Dotnet.Api_HostAddress = http://localhost:5036
+
+GET {{Servico_Taxi_Online_Cccat_Dotnet.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

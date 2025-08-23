@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9F68D92B-8837-4A3A-925C-D6547B29D7C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9463CB46-40BE-4288-9241-04FBCB684C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servico-Taxi.Domain", "src\Servico-Taxi.Domain\Servico-Taxi.Domain.csproj", "{2A34FEF3-BFCD-4257-AE2D-CEA3A2953730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servico-Taxi.Application", "src\Servico-Taxi.Application\Servico-Taxi.Application.csproj", "{67EC0CED-B46B-4CE2-9231-5665D0C53B35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servico-Taxi.Infrastructure", "src\Servico-Taxi.Infrastructure\Servico-Taxi.Infrastructure.csproj", "{D75F7C26-7DC7-4981-BD4B-9D4250CCE2CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servico-Taxi.Api", "src\Servico-Taxi.Api\Servico-Taxi.Api.csproj", "{10CEB874-7FBA-4F58-922C-2FB3A88D5BD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C45E1395-4EBB-4A18-B4B4-9EAC1278D264}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A34FEF3-BFCD-4257-AE2D-CEA3A2953730} = {9F68D92B-8837-4A3A-925C-D6547B29D7C4}
+		{67EC0CED-B46B-4CE2-9231-5665D0C53B35} = {9F68D92B-8837-4A3A-925C-D6547B29D7C4}
+		{D75F7C26-7DC7-4981-BD4B-9D4250CCE2CA} = {9F68D92B-8837-4A3A-925C-D6547B29D7C4}
+		{10CEB874-7FBA-4F58-922C-2FB3A88D5BD8} = {9F68D92B-8837-4A3A-925C-D6547B29D7C4}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A34FEF3-BFCD-4257-AE2D-CEA3A2953730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A34FEF3-BFCD-4257-AE2D-CEA3A2953730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A34FEF3-BFCD-4257-AE2D-CEA3A2953730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A34FEF3-BFCD-4257-AE2D-CEA3A2953730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67EC0CED-B46B-4CE2-9231-5665D0C53B35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EC0CED-B46B-4CE2-9231-5665D0C53B35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EC0CED-B46B-4CE2-9231-5665D0C53B35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EC0CED-B46B-4CE2-9231-5665D0C53B35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75F7C26-7DC7-4981-BD4B-9D4250CCE2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75F7C26-7DC7-4981-BD4B-9D4250CCE2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75F7C26-7DC7-4981-BD4B-9D4250CCE2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75F7C26-7DC7-4981-BD4B-9D4250CCE2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10CEB874-7FBA-4F58-922C-2FB3A88D5BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10CEB874-7FBA-4F58-922C-2FB3A88D5BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10CEB874-7FBA-4F58-922C-2FB3A88D5BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10CEB874-7FBA-4F58-922C-2FB3A88D5BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

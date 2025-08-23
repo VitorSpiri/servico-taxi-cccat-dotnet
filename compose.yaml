@@ -1,0 +1,7 @@
+﻿services:
+  servico-taxi-online-cccat-dotnet.api:
+    image: servico-taxi-online-cccat-dotnet.api
+    build:
+      context: .
+      dockerfile: src/Servico-Taxi-Online-Cccat-Dotnet.Api/Dockerfile
+
