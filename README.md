@@ -1,4 +1,4 @@
-# 🚕 Serviço de Taxi Online (.NET)
+# 🚕 Serviço de Taxi Online (.NET) - Em Construção
 
 ## 📋 Sobre o Projeto
 
@@ -56,6 +56,3 @@ src/
 
 ### DevOps
 - Em Construção
-
-
-Em Construção
