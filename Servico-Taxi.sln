@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		compose.yaml = compose.yaml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{C23A32D2-9ABE-4899-8308-4B754B313F78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,7 @@ Global
 		{67EC0CED-B46B-4CE2-9231-5665D0C53B35} = {9F68D92B-8837-4A3A-925C-D6547B29D7C4}
 		{D75F7C26-7DC7-4981-BD4B-9D4250CCE2CA} = {9F68D92B-8837-4A3A-925C-D6547B29D7C4}
 		{10CEB874-7FBA-4F58-922C-2FB3A88D5BD8} = {9F68D92B-8837-4A3A-925C-D6547B29D7C4}
+		{C23A32D2-9ABE-4899-8308-4B754B313F78} = {9463CB46-40BE-4288-9241-04FBCB684C55}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2A34FEF3-BFCD-4257-AE2D-CEA3A2953730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -45,5 +48,9 @@ Global
 		{10CEB874-7FBA-4F58-922C-2FB3A88D5BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10CEB874-7FBA-4F58-922C-2FB3A88D5BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10CEB874-7FBA-4F58-922C-2FB3A88D5BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23A32D2-9ABE-4899-8308-4B754B313F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23A32D2-9ABE-4899-8308-4B754B313F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23A32D2-9ABE-4899-8308-4B754B313F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23A32D2-9ABE-4899-8308-4B754B313F78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
